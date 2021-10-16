@@ -4,6 +4,7 @@
   gap: 64px;
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .container {
     gap: 88px;

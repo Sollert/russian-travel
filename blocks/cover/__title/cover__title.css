@@ -1,17 +1,17 @@
 .cover__title {
+  margin: 0 0 16px;
+  max-width: calc(100% - 16px*2);
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
-  color: #fff;
+  font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-  font-weight: 900;
+  color: #fff;
   text-decoration: none;
   text-align: center;
-  color: #fff;
-  margin: 0 0 16px 0;
-  max-width: calc(100% - 16px*2);
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .cover__title {
     max-width: calc(100% - 104px*2);
@@ -23,13 +23,13 @@
 @media (min-width: 1024px) {
   .cover__title {
     max-width: calc(100% - 232px*2);
-    margin: 0 0 32px 0;
+    margin: 0 0 32px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover__title {
     max-width: calc(100% - 312px*2);
-    margin: 0 0 32px 0;
+    margin: 0 0 0 32px;
   }
 }

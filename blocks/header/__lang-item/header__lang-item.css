@@ -1,4 +1,4 @@
 .header__lang-item {
-  display: flex;
   padding-bottom: 5px; /* выравнивание lang с logo ровно как на макете */
+  display: flex;
 }

@@ -1,15 +1,16 @@
 .page__header {
-  margin: 16px auto 16px auto;
+  margin: 16px auto;
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .page__header {
-    margin: 28px auto 48px auto;
+    margin: 28px auto 48px;
     }
 }
 
 @media (min-width: 1280px) {
   .page__header {
-    margin: 28px auto 56px auto;
+    margin: 28px auto 56px;
     }
 }

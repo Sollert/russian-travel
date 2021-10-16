@@ -2,6 +2,7 @@
   max-width: 100%;
 }
 
+/* медиа-запросы */
 @media (min-width: 1024px) {
   .lead {
     max-width: calc(100% - 48px*2);

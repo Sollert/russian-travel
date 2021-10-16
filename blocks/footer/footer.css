@@ -1,16 +1,17 @@
 .footer {
+  max-width: calc(100% - (118px + 16px));
+  min-height: 310px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: calc(100% - (118px + 16px));
-  min-height: 310px;
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .footer {
-    flex-direction: row;
     max-width: calc(100% - 24px*2);
     min-height: 18px;
+    flex-direction: row;
   }
 }
 

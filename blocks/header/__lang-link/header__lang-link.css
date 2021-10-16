@@ -1,14 +1,15 @@
 .header__lang-link {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 400;
   color: #FFFFFF;
   text-decoration: none;
   align-self: flex-end;
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .header__lang-link {
     font-size: 24px;

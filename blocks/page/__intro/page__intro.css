@@ -2,6 +2,8 @@
     margin: 0 auto;
   }
 
+
+/* медиа-запросы */
 @media (min-width: 1024px) {
   .page__intro {
     margin: 0 286px 0 48px;

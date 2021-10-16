@@ -1,29 +1,32 @@
 .footer__link {
+  margin: 0 0 32px;
   font-family: "Inter", "Arial", sans-serif;
-  font-size: 24px;
   font-style: normal;
   font-weight: 400;
+  font-size: 24px;
   line-height: 24px;
   text-decoration: none;
   color: #fff;
-  margin: 0 0 32px 0;
   align-self: start;
   transition: opacity 1s ease;
 }
 
+/* обнуляем margin у последней ссылки */
 .footer__link:last-of-type {
   margin: 0;
 }
 
+/* уменьшаем опасити для ссылок при наведении */
 .footer__link:hover {
   opacity: .8;
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .footer__link {
+    margin: 0 18px 0 0;
     font-size: 16px;
     line-height: 18px;
     align-self: center;
-    margin: 0 18px 0 0;
   }
 }

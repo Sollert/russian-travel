@@ -3,6 +3,7 @@
   gap: 50px;
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .places {
     gap: 72px;

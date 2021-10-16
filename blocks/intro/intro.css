@@ -2,6 +2,7 @@
   max-width: calc(100% - 16px*2);
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .intro {
     max-width: calc(100% - 24px*2)

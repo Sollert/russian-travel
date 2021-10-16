@@ -4,6 +4,7 @@
   justify-content: space-between;
 }
 
+/* медиа-запросы */
 @media (min-width: 768px) {
   .header {
     max-width: calc(100% - 24*2px);
