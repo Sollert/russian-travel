@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
@@ -57,12 +57,14 @@
       <img src="./images/photo-grid/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__item">
       <img src="./images/photo-grid/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item">
     </section>
+    <!-- Places -->
     <section class="places page__places">
+      <!-- Куршская коса -->
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
-          <a class="place__link" href="#">park-kosa.ru</a>
+          <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
         </div>
         <img class="place__image" src="./images/places/place-kosa.jpg" alt="Куршская коса">
         <article class="place__text">
@@ -78,11 +80,12 @@
           </p>
         </article>
       </div>
+      <!-- Кольский -->
       <div class="place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
-          <a class="place__link" href="#">National Geographic</a>
+          <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
         </div>
         <img class="place__image" src="./images/places/place-kolsky.jpg" alt="Кольский полуостров">
         <article class="place__text">
@@ -98,11 +101,12 @@
           </p>
         </article>
       </div>
+      <!-- Алтай -->
       <div class="place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
-          <a class="place__link" href="#">Facebook</a>
+          <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
         </div>
         <img class="place__image" src="./images/places/place-altai.jpg" alt="Алтай">
         <article class="place__text">
@@ -119,32 +123,32 @@
           </p>
         </article>
       </div>
+      <!-- Зимний Байкал -->
       <div class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
-          <a class="place__link" href="#">https://vk.com/baikalmile</a>
+          <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="./images/places/place-winter-baikal.jpg" alt="Байкал">
         <article class="place__text">
           <p class="place__paragraph">
-            Алтай — одно из красивейших мест в России. 
-            В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра.
-            А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
+            Всем известен Байкал как крупнейшее озеро 
+            в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
           </p>
           <p class="place__paragraph">
-            Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом.
-            Так вы увидите всё разнообразие местной флоры и фауны.
-            По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули.
-            И знаменитые манулы — тоже обитатели Алтайского края.
+            Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
+            к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду.
+            В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
           </p>
         </article>
       </div>
+      <!-- Карелия -->
       <div class="place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <p class="place__url">URL</p>
-          <a class="place__link" href="#">http://vodlozero.ru/</a>
+          <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
         </div>
         <img class="place__image" src="./images/places/place-karelia.jpg" alt="Карелия">
         <article class="place__text">
@@ -158,6 +162,24 @@
         </article>
       </div>
     </section>
+    <!-- Cover -->
+    <section>
+      <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      </a>
+    </section>
   </main>
+  <!-- Footer -->
+  <footer class="footer page__footer">
+    <nav class="footer__items">
+      <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+    </nav>
+    <p class="footer__copyright">© 2020. Максимюк Сергей</p>
+  </footer>
 </body>
 </html>

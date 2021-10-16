@@ -1,0 +1,24 @@
+.places {
+  display: grid;
+  gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .places {
+    gap: 72px;
+    max-width: calc(100% - 24px*2);
+    }
+}
+
+@media (min-width: 1024px) {
+  .places{
+    gap: 80px;
+    max-width: calc(100% - 48px*2);
+    }
+}
+
+@media (min-width: 1280px) {
+  .places{
+    max-width: calc(100% - 100px*2);
+    }
+}

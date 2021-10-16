@@ -10,8 +10,6 @@
   }
 }
 
-/* Запрос для 932px, чтобы картинки не налезали друг на друга с 932 по 1024 */
-
 @media (min-width: 932px) {
   .photo-grid__item {
     max-width: 290px;
@@ -26,9 +24,18 @@
   }
 }
 
+@media (min-width: 1178px) {
+  .photo-grid__item {
+    max-width: 284px;
+    min-height: 264px;
+  }
+}
+
 @media (min-width: 1280px) {
   .photo-grid__item {
     max-width: 284px;
     min-height: 213px;
   }
 }
+
+/* Запросы для 932px и 1178px, чтобы картинки не налезали друг на друга в промежутках*/
