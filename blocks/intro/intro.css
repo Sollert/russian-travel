@@ -1,0 +1,15 @@
+.intro {
+  max-width: calc(100% - 16px*2);
+}
+
+@media (min-width: 768px) {
+  .intro {
+    max-width: calc(100% - 24px*2)
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    max-width: 690px;
+  }
+}

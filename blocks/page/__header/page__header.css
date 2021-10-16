@@ -1,21 +1,15 @@
 .page__header {
-  margin: 28px 40px 56px 40px;
+  margin: 16px auto 16px auto;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
   .page__header {
-    margin: 16px 16px 48px 16px;
+    margin: 28px auto 48px auto;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1280px) {
   .page__header {
-    margin: 28px 24px 48px 24px;
-    }
-}
-
-@media (max-width: 768px) {
-  .page__header {
-    margin: 16px 16px 48px 16px;
+    margin: 28px auto 56px auto;
     }
 }
