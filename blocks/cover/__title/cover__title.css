@@ -22,14 +22,14 @@
 
 @media (min-width: 1024px) {
   .cover__title {
-    max-width: calc(100% - 232px*2);
     margin: 0 0 32px;
+    max-width: calc(100% - 232px*2);
   }
 }
 
 @media (min-width: 1280px) {
   .cover__title {
+    margin: 0 0 32px;
     max-width: calc(100% - 312px*2);
-    margin: 0 0 0 32px;
   }
 }
