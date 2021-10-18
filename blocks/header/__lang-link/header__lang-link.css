@@ -7,6 +7,12 @@
   color: #FFFFFF;
   text-decoration: none;
   align-self: flex-end;
+  transition: opacity 1s ease;
+}
+
+/* меняем прозрачность при наведении */
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 /* медиа-запросы */
