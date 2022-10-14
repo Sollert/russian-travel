@@ -1,24 +1,25 @@
 .intro {
   color: #fff;
   max-width: 690px;
-  min-height: 429px;
+  padding-left: 148px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .intro {
-    align-self: center;
+    padding-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     max-width: calc(100% - 24px*2);
+    padding-left: 0;
+    align-self: center;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     max-width: calc(100% - 16px*2);
-    min-height: 754px;
   }
 }
