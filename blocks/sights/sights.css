@@ -1,0 +1,27 @@
+.sights {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  gap: 80px;
+  max-width: calc(100% - 148px*2);
+}
+
+@media screen and (max-width: 1024px) {
+  .sights {
+    max-width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sights {
+    max-width: calc(100% - 24px*2);
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sights {
+   max-width: 100%;
+    gap: 50px;
+  }
+}
