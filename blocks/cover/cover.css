@@ -1,6 +1,5 @@
 .cover {
   width: calc(100% - 48px*2);
-  min-height: 740px;
   align-self: center;
 }
 
